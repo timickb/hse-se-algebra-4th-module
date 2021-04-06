@@ -1,0 +1,46 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{titling}
+\usepackage{titlesec}
+\usepackage{amsfonts,amsmath,amssymb,amsthm,mathtools}
+\usepackage{icomma}
+\usepackage{cmap}
+\usepackage{mathtext}
+
+
+\newcommand{\stmnt}[1]{\fbox{\textbf{#1}}}
+\newcommand{\void}{\vspace{\baselineskip}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\abs}[1]{\vert #1\vert}
+\newcommand{\numsec}[1]{\textbf{#1).}}
+\newcommand{\normin}{\vartriangleleft}
+\newcommand{\mx}[1]{\begin{pmatrix} #1\end{pmatrix}}
+\newcommand{\dmx}[1]{\begin{vmatrix} #1\end{vmatrix}}
+\newcommand{\cycgr}[1]{\langle #1\rangle}
+\newcommand{\ol}{\overline}
+\newcommand{\ul}{\underline}
+\newcommand{\ub}{\underbrace}
+\newcommand{\ob}{\overbrace}
+
+\setlength{\parindent}{0em}
+\setlength{\droptitle}{-7em}
+
+\usepackage[left=1cm,right=1cm,
+    top=1.5cm,bottom=1.5cm,bindingoffset=0cm]{geometry}
+\usepackage{subfiles}
+
+\title{Алгебра на ФКН ПИ}
+\author{Общий конспект всех лекций за 4 модуль}
+
+\begin{document}
+    \maketitle
+
+    \section{Линейные пространства (продолжение)}
+
+    \subfile{sections/linear_algebra.tex}
+
+\end{document}
